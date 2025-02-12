@@ -6,13 +6,24 @@
     <!--title bar-->
     <title>portfolio</title>
     <link rel="shortcut icon" href="/pics/Aha-Soft-Standard-Portfolio-Resume.256.png" type="image/x-icon">
+    <!--css external-->
+    <link rel="stylesheet" href="/css/styles.css">
+    <!--googlefont-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Liter&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+ rel="stylesheet">
 </head>
 <body>
-    
 <header>
-    <nav>
-       <img src="/pics/download.png" alt="logo" width="150px" height="150px">
-        <ul>
+    <nav class="navigationbar">
+      
+       <img id="logo"
+       src="/pics/download.png" alt="logo" 
+       width="150px" height="150px";
+       padding: 1%;">
+       
+        <ul class="navlist">
             <li><a href="#">Accueil</a></li>
             <li><a href="#About">About</a></li>
             <li><a href="#Contact">Contact</a></li>
@@ -63,12 +74,30 @@
     <h2>Skill:</h2>
     <img src="https://icons.iconarchive.com/icons/martz90/hex/256/html-5-icon.png" alt="html">
     <img src="https://icons.iconarchive.com/icons/martz90/hex/256/css-3-icon.png" alt="css">
-    <img src="//icons.iconarchive.com/icons/arturo-wibawa/akar/256/javascript-icon.png" alt="java">
+    <img src="//icons.iconarchive.com/icons/arturo-wibawa/akar/256/javascript-icon.png" alt="JavaScript ">
     <section id="Contact"></section>
     
     <!--form-->
+    <hr>
+    <form>
+    <label for="name">Name:</label>
+    <input type="text" placeholder="your name please" id="name" required>
+    <br>
+    <label for="Email">Email:</label>
+    <input type="email" placeholder="example.example@gmail.com" id="Email" required>
+    <br>
+    <label for="messges">messge:</label>
+    <textarea  id="messge" placeholder="put your messge" cols="50" rows="5"></textarea>
+    <input type="submit" value="send">
+    </form>
+    <br>
     </section>
 </main>
-<footer></footer>
+<footer>
+   &copy;AzizBenYounes
+   <a href="azizbenyounes18@gmail.com">azizbenyounes18@gmail.com</a>
+   <a href="https://www.linkedin.com/in/aziz-benyounes-0a13b7350/">
+   <img src="pics/linkedin-icon.png" alt="linkedin" width="20px"></a>
+</footer>
 </body>
 </html
